@@ -1,0 +1,90 @@
+Steps for SFX .exe
+
+-Test all controls in MAX
+
+-Build .exe - no additions
+
+-Copy "java" folder from SFX\Global Package Resources to "support" folder in .exe folder
+
+-Copy "Licence.txt" into application folder from "Global Shared Resources"
+
+-Copy "step by step" into application folder from "Global Shared Resources"
+
+-Use .icoFX to fix icon
+	Tools -> Resource Editor
+	.ico file is in global shared resources
+		NEW icos, save as gif, open in editor, save for windoes with all sizes necessary.
+
+-Hide .mxf file in folder
+
+-Open InstallJammer
+
+Keep the Names All the same as the app
+Dont install Shortuts or open a read me
+
+General Information
+	Application Information
+		Install Features
+-Add password
+
+Components and File
+	Groups and Files
+
+-Add Script Folder in c:\GTDControlScripts
+-Set destination directory to same for all files
+
+-Right Click and add to desktop and program folder
+	.exe
+	step by step
+-Add Licence to Folder
+
+"Compnents" 
+-add scripts
+
+Install Panes
+	Welcome Screen
+-Delete"Jammer"
+-Add Licence Agreement
+-Add text (AT BOTTOM OF THIS)
+-Add User Info Screen
+-Add Password Screen
+	Text properties
+- Change "caption to - Please enter your personal licence key included with your purchase.
+- Change Sub title to - This installation requires a licence key to continue.
+- Change "Title" to - Install Licence Key
+- Delete Install location pane
+	Setup Complete
+- Delete "Jammer" in Caption and Message
+- Change MESSAGE to - The Install Wizard has successfully installed <%AppName%>.  
+
+Next, open the Step by Step Instalation Instructions that came with your package 
+
+Click Finish to exit the wizard.
+- Under Launch Application Checkbutton, widget properties, MOVE the Y value to 190.
+
+
+
+END USER LICENSE AGREEMENT
+Software License Agreement for Greater Than Control Products
+IMPORTANT- PLEASE READ CAREFULLY: BY INSTALLING THE SOFTWARE (AS DEFINED BELOW), COPYING THE SOFTWARE AND/OR CLICKING ON THE 'ACCEPT' BUTTON BELOW, YOU (EITHER ON BEHALF OF YOURSELF AS AN INDIVIDUAL OR ON BEHALF OF AN ENTITY AS ITS AUTHORIZED REPRESENTATIVE) AGREE TO ALL OF THE TERMS OF THIS END USER LICENSE AGREEMENT ('AGREEMENT') REGARDING YOUR USE OF THE SOFTWARE.  IF YOU DO NOT AGREE WITH ALL OF THE TERMS OF THIS AGREEMENT, CLICK ON THE 'NO' BUTTON. THIS WILL CANCEL THE INSTALLATION.
+1. GRANT OF LICENSE: Subject to the terms below, Greater Than Designs LLC hereby grants you a non-exclusive, non-transferable license to install and to use Greater Than Control Products ('Software').
+Under this license, you may: (i) install and use the Software on a single computer for your personal, internal use (ii) copy the Software for back-up or archival purposes. (iii)You may not distribute the software to others without first obtaining the required licenses, where applicable.
+Whether you are licensing the Software as an individual or on behalf of an entity, you may not: (i) reverse engineer, decompile, or disassemble the Software or attempt to discover the source code; (ii) modify, or create derivative works based upon, the Software in whole or in part without the express written consent of Greater Than Designs LLC; (iii) distribute copies of the Software; (iv) remove any proprietary notices or labels on the Software; (v) resell, lease, rent, transfer, sublicense, or otherwise transfer rights to the Software. 
+2. TITLE: You acknowledge that no title to the intellectual property in the Software is transferred to you. Title, ownership, rights, and intellectual property rights in and to the Software shall remain that of Greater Than Designs LLC . The Software is protected by copyright and patent laws of the United States and international treaties. 
+3. DISCLAIMER OF WARRANTY: 
+YOU AGREE THAT Greater Than Designs LLC HAS MADE NO EXPRESS WARRANTIES, ORAL OR WRITTEN, TO YOU REGARDING THE PRODUCTS AND THAT THE PRODUCTS ARE BEING PROVIDED TO YOU 'AS IS' WITHOUT WARRANTY OF ANY KIND.  Greater Than Designs LLC DISCLAIMS ANY AND ALL OTHER WARRANTIES, WHETHER EXPRESSED, IMPLIED, OR STATUTORY. YOUR RIGHTS MAY VARY DEPENDING ON THE STATE IN WHICH YOU LIVE.
+ Greater Than Designs LLC SHALL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, COVER, RELIANCE, OR CONSEQUENTIAL DAMAGES RESULTING FROM THE USE OF THIS PRODUCT.
+5. LIMITATION OF LIABILITY: You use this program solely at your own risk.
+IN NO EVENT SHALL Greater Than Designs LLC BE LIABLE TO YOU FOR ANY DAMAGES, INCLUDING BUT NOT LIMITED TO ANY LOSS, OR OTHER INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND ARISING OUT OF THE USE OF THE SOFTWARE, EVEN IF Greater Than Designs LLC HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT WILL Greater Than Designs LLC BE LIABLE FOR ANY CLAIM, WHETHER IN CONTRACT, TORT, OR ANY OTHER THEORY OF LIABILITY, EXCEED THE COST OF THE SOFTWARE. THIS LIMITATION SHALL APPLY TO CLAIMS OF PERSONAL INJURY TO THE EXTENT PERMITTED BY LAW. 
+6. TERMINATION: This Agreement shall terminate automatically if you fail to comply with the limitations described in this Agreement. No notice shall be required to effectuate such termination. Upon termination, you must remove and destroy all copies of the Software. 
+7. MISCELLANEOUS:
+Severability.  
+In the event of invalidity of any provision of this Agreement, the parties agree that such invalidity shall not affect the validity of the remaining portions of this Agreement. 
+Export.  
+You agree that you will not export or re-export the Software outside of the jurisdiction in which you obtained it without the appropriate United States or foreign government licenses.
+Governing Law.  
+This Agreement will be governed by the laws of the State of Colorado as they are applied to agreements between Colorado residents entered into and to be performed entirely within Colorado. The United Nations Convention on Contracts for the International Sale of Goods is specifically disclaimed.
+Entire Agreement.  
+You agree that this is the entire agreement between you and Greater Than Designs LLC, which supersedes any prior agreement, whether written or oral, and all other communications between Greater Than Designs LLC and you relating to the subject matter of this Agreement. 
+Reservation of rights.  
+All rights not expressly granted in this Agreement are reserved by Greater Than Designs LLC.
